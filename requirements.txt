@@ -1,0 +1,9 @@
+# GPU 版 PyTorch 请根据平台与驱动单独安装；不要覆盖已经可用的 CUDA 环境。
+# 本教程验证环境：torch 2.9.1+cu130，tokenizers 0.22.1。
+numpy>=1.26,<3
+tokenizers==0.22.1
+matplotlib>=3.8,<4
+nbformat>=5.10,<6
+nbclient>=0.10,<1
+ipykernel>=6.29,<8
+jupyterlab>=4.2,<5

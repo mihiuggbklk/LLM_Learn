@@ -1,0 +1,24 @@
+{
+  "source": "wikimedia/wikipedia",
+  "source_url": "https://huggingface.co/datasets/wikimedia/wikipedia",
+  "api_url": "https://datasets-server.huggingface.co/rows",
+  "snapshot": "2023-11-01",
+  "config": "20231101.en",
+  "split": "train",
+  "language": "en",
+  "license_card_url": "https://huggingface.co/datasets/wikimedia/wikipedia#licensing-information",
+  "selection": "prefix_not_random",
+  "sampling": {
+    "offset": 0,
+    "max_rows": 5000,
+    "page_size": 100
+  },
+  "num_rows_total": 6407814,
+  "rows_examined": 5000,
+  "rows_written": 5000,
+  "empty_rows_skipped": 0,
+  "raw_file": "data/raw/wikipedia_20231101_en.jsonl",
+  "raw_bytes": 71583481,
+  "sha256": "e560a73549a2f4e4d5a2fbc468edc8f7cd9227ff075390d7afbcd88ff7fef821",
+  "downloaded_at_utc": "2026-10-10T12:09:19.165308+00:00"
+}

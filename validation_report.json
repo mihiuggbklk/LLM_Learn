@@ -1,0 +1,111 @@
+{
+  "notebook": "0.1B_LLM.ipynb",
+  "notebook_sha256": "40d611e84194b2098bcec49ff7f67e9c42c6080ba0bee3537c96301e04df36d9",
+  "cells": 120,
+  "syntax": "passed",
+  "behavior_checks": [
+    {
+      "name": "check_full_model_parameter_count",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.0254
+    },
+    {
+      "name": "check_token_windows_predict_next_token",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.0002
+    },
+    {
+      "name": "check_causal_prefix_is_unchanged",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.0054
+    },
+    {
+      "name": "check_manual_attention_matches_sdpa",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.0074
+    },
+    {
+      "name": "check_cache_matches_single_token_and_chunk_forward",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.0278
+    },
+    {
+      "name": "check_generate_cache_preserves_tokens_and_training_mode",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.0141
+    },
+    {
+      "name": "check_chat_prompt_matches_sft_and_trims_whole_rounds",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.0028
+    },
+    {
+      "name": "check_sft_prompt_mask_and_eos_supervision",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.0
+    },
+    {
+      "name": "check_sft_shift_and_right_padding",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.0004
+    },
+    {
+      "name": "check_token_loss_uses_already_shifted_targets",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.0002
+    },
+    {
+      "name": "check_all_ignored_targets_have_finite_zero_loss",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.0002
+    },
+    {
+      "name": "check_reward_rejects_ambiguous_or_partial_answers",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.0001
+    },
+    {
+      "name": "check_group_advantages_are_per_prompt",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.0004
+    },
+    {
+      "name": "check_completion_log_probs_match_causal_prediction",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.0048
+    },
+    {
+      "name": "check_grpo_old_and_reference_are_detached",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.0006
+    },
+    {
+      "name": "check_checkpoint_restores_logits_optimizer_step_and_sampler",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.0691
+    },
+    {
+      "name": "check_short_overfit_reduces_loss",
+      "status": "passed",
+      "detail": "",
+      "seconds": 0.1071
+    }
+  ],
+  "scope": "Clean public notebook: syntax, schema, and behavior checks. No full Notebook training run or full CUDA update in this publication check; English full-data verification is in data/sources/full_data_validation.json."
+}

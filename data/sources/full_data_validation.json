@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "scope": "Actual notebook full-data loading, exact deduplication, document splits, 8192-vocabulary BPE training on train only, token streams, parameter formula. No model training or SFT/RL run.",
+  "notebook_sha256": "40d611e84194b2098bcec49ff7f67e9c42c6080ba0bee3537c96301e04df36d9",
+  "raw_file_sha256": "e560a73549a2f4e4d5a2fbc468edc8f7cd9227ff075390d7afbcd88ff7fef821",
+  "raw_rows": 5000,
+  "raw_bytes": 71583481,
+  "language": "en",
+  "raw_files": [
+    "data\\raw\\wikipedia_20231101_en.jsonl"
+  ],
+  "provenance_file": "data\\sources\\wikipedia_20231101_en.json",
+  "documents": {
+    "train": 3979,
+    "val": 500,
+    "test": 521
+  },
+  "tokens": {
+    "train": 15199632,
+    "val": 1806393,
+    "test": 1829187
+  },
+  "vocabulary_size": 8192,
+  "model_parameters_formula": 98324736,
+  "seconds": 35.09,
+  "artifacts": "artifacts\\full_data_check"
+}
